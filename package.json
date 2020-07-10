@@ -1,0 +1,31 @@
+{
+  "name": "wallapi",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "fence",
+  "license": "AGPL3",
+  "private": true,
+  "dependencies": {
+    "@koa/router": "^9.3.1",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "unsplash-js": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
